@@ -1,0 +1,10 @@
+Package: clusterd
+Type: Package
+Title: cluster by similarity in distribution
+Version: 1.0
+Date: 2019-09-04
+Author: DHYH
+Maintainer: Who to complain to <dhyj777@gmail.com>
+Description: methods available to find out how similar is the distribution of attribute values among different groups
+License: GPL-3
+RoxygenNote: 6.1.1
