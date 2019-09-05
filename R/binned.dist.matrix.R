@@ -31,7 +31,7 @@ function(
     !is.null(target.label)
   )
 
-  target.attribute.names <- strsplit(target_columns,split = ",")[[1]]
+  target.attribute.names <- unlist(strsplit(target_columns,split = ","))
   target.attribute.text <- paste0(
     "c("
     ,target.attribute.names %>% sapply(function(z){paste0("'",z,"'")}) %>% paste0(collapse=",")
